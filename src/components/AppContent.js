@@ -23,7 +23,12 @@ const AppContent = () => {
               )
             )
           })}
+
+          {/* Ana route */}
           <Route path="/" element={<Navigate to="dashboard" replace />} />
+
+          {/* ✅ 404 – bilinmeyen tüm admin route'lar */}
+          <Route path="*" element={<Navigate to="/404" replace />} />
         </Routes>
       </Suspense>
     </CContainer>

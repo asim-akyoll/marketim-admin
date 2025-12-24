@@ -17,9 +17,10 @@ import { logo } from 'src/assets/brand/logo'
 import { sygnet } from 'src/assets/brand/sygnet'
 
 // sidebar nav config
-import navigation from '../_nav'
+import getNav from '../_nav'
 
-const AppSidebar = () => {
+const AppSidebar = ({ lowStockCount = 0 }) => {
+  const navigation = getNav(lowStockCount)
   const dispatch = useDispatch()
   const unfoldable = useSelector((state) => state.sidebarUnfoldable)
   const sidebarShow = useSelector((state) => state.sidebarShow)
