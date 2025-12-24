@@ -30,8 +30,6 @@
     "axios": "^1.13.2",
     "chart.js": "^4.5.1",
     "classnames": "^2.5.1",
-    "core-js": "^3.46.0",
-    "prop-types": "^15.8.1",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
     "react-redux": "^9.2.0",
