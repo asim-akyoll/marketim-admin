@@ -2,7 +2,7 @@
   "name": "marketim-admin",
   "version": "0.1.0",
   "private": true,
-  "description": "Marketim Admin Panel - built with CoreUI Free (MIT)",
+  "description": "Marketim Admin Panel",
   "homepage": ".",
   "repository": {
     "type": "git",
